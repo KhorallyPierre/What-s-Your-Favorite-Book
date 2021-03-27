@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background: url(img/book.png) no-repeat;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.imgSize{
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  background-color: rgb(167, 19, 69);
+  border: 5px solid #black;
+  padding: 23px;
+  border-radius: 22px;
+}
+
+.formFlexResize{
+  display: block;
+}
+
+h1{
+  font-size: 30px;
+  font-size: 30px;
+  color: rgb(235, 199, 108);
+  padding-bottom: 15px;
+}
+
+h3{
+  font-size: 40px;
+  padding: 10px 0;
+  color: black;
+}
+
+h2{
+  padding: 60px 0;
+  color: black;
+}
+
+ul{
+  width: 50%;
+  color: rgb(167, 19, 69);
+  font-weight: bold;
+  list-style: circle;
+  display: inline;
+}
+
+.book{
+  text-decoration: none;
+}
+
+input{
+  height: 25px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding-left: 5px;
+  border: 3px solid rgb(167, 19, 69);
+
+}
+
+.inputName{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  width: auto;
+}
+
+.inputBook{
+  font-size: 30px;
+  color: blue;
+}
+
+.heartIcon{
+  color: rgb(167, 19, 69);
+  margin-left: 20px;
+}
+
+.fa-thumbs-down,
+.fa-trash {
+  color: rgb(167, 19, 69);
+}
+
+button{
+  width: 60px;
+  height: 30px;
+  background: rgb(167, 19, 69);
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+i{
+  color:#545454;
+  padding: 9px 5px;
+}
+
+.books2 {
+  text-align: center;
+}
+
+.message {
+  width:auto;
+}
